@@ -4,7 +4,7 @@ Tic Tac Toe is a simple two-player game in which players take turns placing thei
 
 ## Demo
 
-![Demo of tic-tac-toe](https://gitlab.com/olooeez/tic-tac-toe/-/raw/main/img/demo.png)
+![Demo of tic-tac-toe](https://github.com/luizvilasboas/tic-tac-toe/blob/main/img/demo.png?raw=true)
 
 ## Usage
 
@@ -23,7 +23,7 @@ You can use the following options to use tic-tac-toe:
 To run tic-tac-toe, you must clone this repository with the following command:
 
 ```
-git clone https://gitlab.com/olooeez/tic-tac-toe.git
+git clone https://github.com/luizvilasboas/tic-tac-toe.git
 ```
 
 #### Enter the cloned repository
@@ -57,7 +57,7 @@ ruby lib/tic_tac_toe.rb
 To run the program in a docker container, clone the repository to your machine first:
 
 ```
-git clone https://gitlab.com/olooeez/tic-tac-toe.git
+git clone https://github.com/luizvilasboas/tic-tac-toe.git
 ```
 
 #### Enter the cloned repository
@@ -95,4 +95,4 @@ If you would like to contribute to this project, please feel free to open a merg
 
 ## License
 
-This project is licensed under the [MIT](https://gitlab.com/olooeez/tic-tac-toe/-/blob/main/LICENSE) License. See the LICENSE file for details.
+This project is licensed under the [MIT](https://github.com/luizvilasboas/tic-tac-toe/blob/main/LICENSE) License. See the LICENSE file for details.
