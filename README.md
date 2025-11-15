@@ -1,98 +1,77 @@
 # tic-tac-toe
 
-Tic Tac Toe is a simple two-player game in which players take turns placing their symbol (X, O, ...) on a 3x3 grid. The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins the game.
+> A command-line implementation of the classic Tic Tac Toe game, written in Ruby.
 
-## Demo
+## About the Project
+
+This project is a simple two-player game in which players take turns placing their symbol (X, O, etc.) on a 3x3 grid. The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins the game.
 
 ![Demo of tic-tac-toe](https://github.com/luizvilasboas/tic-tac-toe/blob/main/img/demo.png?raw=true)
 
+## Tech Stack
+
+*   [Ruby](https://www.ruby-lang.org/)
+*   [Bundler](https://bundler.io/)
+*   [Docker](https://www.docker.com/)
+
 ## Usage
 
-Below is how you can use tic-tac-toe. Feel free to fork or copy them, but be aware of the limitations that this repository license implies.
+You can run this project in three different ways: locally on your machine, inside a Docker container, or directly in your browser via Replit.
 
-You can use the following options to use tic-tac-toe:
+### Prerequisites
 
-1. [Run in your machine](#run-in-your-machine)
-2. [Run in a Docker container](#run-in-a-docker-container)
-3. [Run in your browser](#run-in-your-browser)
+*   For local execution: [Ruby](https://www.ruby-lang.org) and [Bundler](https://bundler.io/)
+*   For containerized execution: [Docker](https://docs.docker.com/get-docker/)
 
-### Run in your machine
+### 1. Run on Your Local Machine
 
-#### Clone the repo
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/luizvilasboas/tic-tac-toe.git
+    ```
+2.  **Navigate to the project directory**
+    ```bash
+    cd tic-tac-toe
+    ```
+3.  **Install dependencies**
+    ```bash
+    bundle install
+    ```
+4.  **Run the game**
+    ```bash
+    ruby lib/tic_tac_toe.rb
+    ```
 
-To run tic-tac-toe, you must clone this repository with the following command:
+### 2. Run in a Docker Container
 
-```
-git clone https://github.com/luizvilasboas/tic-tac-toe.git
-```
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/luizvilasboas/tic-tac-toe.git
+    ```
+2.  **Navigate to the project directory**
+    ```bash
+    cd tic-tac-toe
+    ```
+3.  **Build the Docker image**
+    ```bash
+    docker build -t olooeez/tic-tac-toe:latest .
+    ```
+4.  **Run the game in a container**
+    ```bash
+    docker run -it --rm olooeez/tic-tac-toe:latest
+    ```
 
-#### Enter the cloned repository
+### 3. Run in Your Browser
 
-After cloning, you must enter the local repository using the following command:
-
-```
-cd tic-tac-toe
-```
-
-#### Install the dependencies
-
-Install [Ruby](https://www.ruby-lang.org) and [Bundler](https://bundler.io/) on your system and run it with the command bellow:
-
-```
-bundler install
-```
-
-#### Run the project
-
-Finally use the command below to run the project:
-
-```
-ruby lib/tic_tac_toe.rb
-```
-
-### Run in a Docker container
-
-#### Clone the repo
-
-To run the program in a docker container, clone the repository to your machine first:
-
-```
-git clone https://github.com/luizvilasboas/tic-tac-toe.git
-```
-
-#### Enter the cloned repository
-
-After cloning, you must enter the local repository using the following command:
-
-```
-cd tic-tac-toe
-```
-
-#### Build the docker image
-
-Then, use the command below to build the Docker image:
-
-```
-docker build -t olooeez/tic-tac-toe:latest .
-```
-
-#### Run the image in a container
-
-Then, to run the image in a container, use the following command:
-
-```
-docker run -it --rm olooeez/tic-tac-toe:latest
-```
-
-### Run in your browser
-
-To run the application in your browser, checkout the [Replit](https://replit.com/@olooeez/tic-tac-toe) version.
-
+You can play the game directly in your browser by visiting the project on Replit:
+**[Play on Replit](https://replit.com/@olooeez/tic-tac-toe)**
 
 ## Contributing
 
-If you would like to contribute to this project, please feel free to open a merge request. All contributions are welcome!
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request.
 
 ## License
 
-This project is licensed under the [MIT](https://github.com/luizvilasboas/tic-tac-toe/blob/main/LICENSE) License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
